@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.gift-box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+}
+
+.lid {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    background-color: #ff4747;
+    top: 0;
+    transition: transform 1s ease;
+    transform-origin: top;
+    cursor: pointer;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #ff4747;
+    position: relative;
+    top: 20px;
+}
+
+.gift {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.gift h1 {
+    margin: 0;
+}
